@@ -14,6 +14,7 @@ class Classmate(Person):
         super().__init__(name, birth_date, occupation, higher_education)
         self.group_name = group_name
 
+
     def introduce(self):
         print(
             f"Привет! Меня зовут {self.name}. "
@@ -26,6 +27,7 @@ class Friend(Person):
     def __init__(self, name, birth_date, occupation, higher_education, hobby):
         super().__init__(name, birth_date, occupation, higher_education)
         self.hobby = hobby
+
 
     def introduce(self):
         print(
